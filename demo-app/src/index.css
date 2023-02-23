@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  font-weight: bold;
+  font-family: "Sassy Frass", cursive;
+  margin: 0px;
+  color: black;
+  
+}
+
+
+.navbar2 {
+  background-color: #f1356d;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+ .navbar2 a {
+  
+  margin: 32px 22px;
+  position: relative;
+  padding: 0px 16px;
+  top: 14px;
+  text-decoration: none;
+}
+.navbar2 a:hover {
+ 
+  
+  color:rgb(255, 255, 255);
+  
+}
+
+.home  {
+  margin: 10px 10px;
+  position: relative;
+  top: 76px;
+  left: 250px;
+  width:500px;
+} 
+
+.navbar h2{
+     color: rgb(0, 0, 0);
+  
+    margin: 10px 0px;
+    position: fixed;
+    z-index: 1000;
+    top: -4px;
+    
+    display: inline-block;
+    left: 1330px;
+    
+}
+.blog-preview {
+  
+  position: relative;
+  left: 0px;
+  padding: 7px 91px;
+  margin: 15px 0px;
+  border-bottom: 1px solid #ffffff;
+  width: 230px;
+}
+.blog-preview p {
+  font-weight:100;
+  
+}
+.blog-preview h2 {
+  color: rgb(215, 76, 76);
+}
+.blog-preview h2,
+p {
+  position: relative;
+  right: 80px;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(27, 17, 17, 0.3);
+}
+.blog-list button{
+   position: relative;
+   left: -80px;
+} 
+
+
+.blog-preview a{
+  text-decoration: none;
+}
+.ani{
+  display: flex;
+  position:absolute;
+
+  top: 150px;
+  left: 250px;
+  right: 250px;
+  flex-direction: column;
+}
+.ani p{
+  position: relative;
+  right:0px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.ani h2{
+  color: rgb(215, 76, 76);
+
+}
+.create{
+  display: flex;
+  
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.create form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  
+  justify-content: center;
+  
+  
+  
+ 
+}
+label{
+  font-weight: 100;
+}
+.create h2 {
+  font-size: 25px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+input ,textarea ,select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  font-weight:lighter;
+}
+.sub{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 80px;
+  position: relative;
+  left: 166px;
+  
+  
+}
+.blog-details button{
+     background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  
+ 
+  margin-top: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 80px;
+  
+  
+}
+.not-found{
+  display: flex;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  flex-direction: column;
+  
+}
+.not-found p{
+ 
+  position: relative;
+  left: 0px;
+ 
+}
+.not-found a{
+ 
+  text-decoration: none;
+  color: blue;
+ 
+}
+.fa-solid fa-blog{
+  z-index: 10000000;
+}

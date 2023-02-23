@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "web dev tools",
+      "body": "lorem60.....",
+      "author": "aniruddha",
+      "id": 30
+    },
+    {
+      "title": "bnvhg",
+      "body": "hjjkbjhb",
+      "author": "pradhyuman",
+      "id": 31
+    },
+    {
+      "title": "aniruddha",
+      "body": "ndbahjbh ahbh ch chc hhs ch sdhcc scscuscsc ys iu siyc ",
+      "author": "vedant",
+      "id": 39
+    },
+    {
+      "title": "ani",
+      "body": "ajahu",
+      "author": "pradhyuman",
+      "id": 40
+    }
+  ]
+}
